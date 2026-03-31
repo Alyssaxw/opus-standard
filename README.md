@@ -7,7 +7,6 @@
 ## What this repo contains
 
 - One `.md` file per model under [`prompts/`](./prompts)
-- The full mirrored article in [`article.md`](./article.md)
 - A concise index and context in this README
 
 ## Baseline idea
