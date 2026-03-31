@@ -1,8 +1,8 @@
 # Opus Standard Prompt Library
 
-A clean prompt library version of **The Opus Standard**.
+**Goal:** Make the experience of every model approximate Claude Opus 4.6 as closely as possible.
 
-This repo extracts the article into one Markdown file per model, so each prompt is easy to browse, compare, and reuse.
+**Core strategy:** Explicitly compensate for each model's known weaknesses via prompt
 
 ## What this repo contains
 
@@ -11,8 +11,6 @@ This repo extracts the article into one Markdown file per model, so each prompt 
 - A concise index and context in this README
 
 ## Baseline idea
-
-The prompts are trying to approximate the traits Alyssa values in **Claude Opus 4.6**:
 
 - strong intent recognition
 - high first-pass accuracy
@@ -37,12 +35,3 @@ The prompts are trying to approximate the traits Alyssa values in **Claude Opus 
 | Gemini 3.1 Flash-Lite | [`prompts/09-gemini-31-flash-lite.md`](./prompts/09-gemini-31-flash-lite.md) |
 | GPT-5.3 Instant | [`prompts/10-gpt-53-instant.md`](./prompts/10-gpt-53-instant.md) |
 | GPT-5.4 Mini | [`prompts/11-gpt-54-mini.md`](./prompts/11-gpt-54-mini.md) |
-
-## Source
-
-- Original article: https://ubeloved.substack.com/p/the-opus-standard-how-to-give-11
-- Full mirror in this repo: [`article.md`](./article.md)
-
-## Note
-
-This is a public GitHub mirror/library of the article content, reorganized for usability.
